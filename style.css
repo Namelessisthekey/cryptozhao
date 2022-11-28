@@ -472,7 +472,7 @@ section #text span
     border-radius: 10px;
     background-image: linear-gradient(to right, #292928, rgb(0, 0, 0));
     max-width: 100%;
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: left;
@@ -488,6 +488,7 @@ section #text span
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    text-align: justify;
 }
 
 .nft3
@@ -499,6 +500,7 @@ section #text span
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 20;
+    text-align: justify;
 }
 .nft4
 {
@@ -506,13 +508,14 @@ section #text span
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 17px;
+    font-size: 15px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 20px;
     display: block;
     margin: 0 auto;
+    
 }
 #checkbtn
 {
