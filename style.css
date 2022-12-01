@@ -600,7 +600,7 @@ section #text span
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
-    text-align: center;
+    text-align: left;
     
 }
 .eventimage
@@ -613,10 +613,21 @@ section #text span
     max-height: 100%;
     align-items: center;
     object-fit: contain;
+    margin-top: 15px;
+}
+
+.secondevent1
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    margin-top: 60px;
+    text-align: left;
 }
 
 
-/*------------------Arts and Collectios--------------*/
+/*------------------Socials--------------*/
 
 #socials
 {
