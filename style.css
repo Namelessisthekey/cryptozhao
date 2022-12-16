@@ -269,7 +269,7 @@ section #text span
 
 #main-container 
 {
-    margin-top: 20px;
+    margin-top: 22px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -280,9 +280,9 @@ section #text span
 #mint-counter 
 {
     color: wheat;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: 'Teko', sans-serif;;
-    font-size: 30px;
+    font-size: 20px;
 }
 .howtobuybtn
 {
@@ -290,7 +290,7 @@ section #text span
     border-color: #ffffff;
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     background-color: rgb(20, 20, 20);
     align-items: center;
@@ -439,13 +439,51 @@ section #text span
     color: rgb(255, 255, 255);
     font-size: 70px;
     font-weight: 800;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     font-family: 'Teko', sans-serif;
     text-align: center;
     letter-spacing: 2px;
    
+}
+
+.nftedition
+{
+    padding: 0px;
+    padding-top: 15px;
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+.nftimage
+{
+    position: relative;
+    text-align: center;
+    width: 95%;
+    height: 95%;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 15px;
+}
+
+.nftbkg1
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #2a2a2a, #000000);
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    height: 600px;
+    
 }
 
 .nftbkg
@@ -463,42 +501,82 @@ section #text span
 }
 .nft2
 {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 30px;
-    margin-top: 30px;
-    font-size: 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 15px;
+    font-size: 13px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     text-align: justify;
+  
 }
 
 .nft3
 {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    font-size: 13px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 20px;
     text-align: justify;
+    
 }
 .nft4
 {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    
-    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;    
+    padding-top: 5px;
+    font-size: 13px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    display: block;
-    margin: 0 auto;
 }
 
+.nft5
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    font-size: 10.5px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.nft6
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+    font-size: 11px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.buttonroadmap
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+.zerozero
+{
+    color: wheat;
+    margin-bottom: 10px;
+    font-family: 'Teko', sans-serif;;
+    font-size: 20px;
+}
 /*------------------RARITY--------------*/
 
 #rarity
@@ -533,6 +611,215 @@ section #text span
     object-fit: contain;
     margin-bottom: 50px;
 }
+
+/*------------------roadmap--------------*/
+
+#roadmap
+{
+    
+    background-color: rgb(0, 0, 0);
+    padding: 20 !important;
+}
+
+
+.roadmap1
+{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+   
+}
+
+.rmbkg
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #292928, #4eab55);
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.rmbkgpol
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #292928, #cd48aa);
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid rgb(100, 100, 100);
+}
+.rmbkgbsc
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #292928, #cac232);
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.rmbkggrw
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #292928, #2e34a9);
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.rmbkgeth
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #292928, #8a8a8a);
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.rmbkgoth
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #292928, #000000);
+    max-width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.rmbkg2
+{
+    border-width: 4px;
+    border-color: #fff;
+    border-radius: 2px;
+    background-image: linear-gradient(to bottom, #161616, #000000);
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+    height: 500px;
+    
+}
+.phase
+{
+    padding: 0px;
+    padding-top: 20px;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+
+.check
+{
+    font-size: 20px;
+    color: rgb(0, 223, 115);
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+.qyear
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 0px;
+    
+}
+
+.roadmap3
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.roadmap301
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.roadmap302
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.roadmap4
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 /*------------------events--------------*/
@@ -689,6 +976,8 @@ section #text span
     max-width: 100%;
     max-height: 100%;
     margin-bottom: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
     
 }
 .calendar-icons a:hover img
