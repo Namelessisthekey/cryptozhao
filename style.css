@@ -987,6 +987,7 @@ section #text span
     font-family: 'Teko', sans-serif;
     margin-top: 30px;
     text-align: left;
+    text-align: center;
 }
 .event2
 {
@@ -994,6 +995,9 @@ section #text span
     color: #fff;
     font-family: 'Poppins', sans-serif;
     margin-top: 0px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .howtojoin
@@ -1002,12 +1006,14 @@ section #text span
     color: #fff;
     font-family: 'Poppins', sans-serif;
     margin-top: 15px;
+    text-align: center;
 }
 .eventjoin
 {
     font-size: 15px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 .eventnote
 {
@@ -1015,6 +1021,7 @@ section #text span
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
+    text-align: center;
 }
 .eventdate
 {
