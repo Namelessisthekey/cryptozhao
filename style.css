@@ -422,7 +422,7 @@ section #text span
     color: rgb(255, 255, 255);
     font-size: 70px;
     font-weight: 800;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 50px;
     margin-right: 50px;
     font-family: 'Teko', sans-serif;
@@ -440,6 +440,17 @@ section #text span
     font-family: 'Teko', sans-serif;
     text-align: center;
     font-weight: 800;
+}
+#mintinglevel
+{
+    padding: 0px;
+    padding-top: 35px;
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 35px;
 }
 
 .nftimage
@@ -468,6 +479,21 @@ section #text span
     margin-top: 15px;
     overflow: hidden;
     display: inline-block;
+}
+.nftlevelimage
+{
+    position: relative;
+    text-align: center;
+    width: 95%;
+    height: 95%;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 15px;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 30px;
 }
 
 .nftbkg1
@@ -617,8 +643,8 @@ section #text span
 {
     padding-left: 30px;
     padding-right: 30px;    
-    padding-top: 0px;
-    font-size: 13px;
+    padding-top: 10px;
+    font-size: 15px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -833,7 +859,7 @@ section #text span
     border-radius: 5px;
     background-image: linear-gradient(to top, #292928, #cac232);
     max-width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
