@@ -649,6 +649,16 @@ section #text span
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
+.nft4x
+{
+    padding-left: 30px;
+    padding-right: 30px;    
+    padding-top: 0px;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
 .nft4bsc
 {
     padding-left: 30px;
